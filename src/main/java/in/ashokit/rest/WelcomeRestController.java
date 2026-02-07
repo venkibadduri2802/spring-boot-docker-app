@@ -12,13 +12,13 @@ public class WelcomeRestController {
 	private Logger logger = LoggerFactory.getLogger(WelcomeRestController.class);
 
 	public WelcomeRestController() {
-		logger.info("***** Test Case-2: Java Spring Boot Application (JAR) Deployment *****");
+		logger.info("***** Test Case-3: Java Spring Boot Application (JAR) Deployment *****");
 	}
 
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Test Case-2: Java Spring Boot Application (JAR) Deployment";
+		String msg = "Test Case-3: Java Spring Boot Application (JAR) Deployment";
 		logger.info("***** welcomeMsg() execution end *****");
 		String s = "hello";
 		logger.info("******************************************************************");

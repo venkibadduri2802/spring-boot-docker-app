@@ -12,7 +12,7 @@ public class WelcomeRestController {
 	private Logger logger = LoggerFactory.getLogger(WelcomeRestController.class);
 
 	public WelcomeRestController() {
-		logger.info("***** WelcomeRestController :: Constructor *****");
+		logger.info("***** Test Case-2: Java Spring Boot Application (JAR) Deployment *****");
 	}
 
 	@GetMapping
